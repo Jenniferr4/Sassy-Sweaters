@@ -1,5 +1,13 @@
 import { Component } from '@angular/core';
-import {faBars} from '@fortawesome/free-solid-svg-icons';
+import {
+  faBars,
+  faTree,
+  faPhone,
+  faSuitcase,
+  faInfoCircle,
+  faCogs,
+  faShoppingCart
+} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +16,13 @@ import {faBars} from '@fortawesome/free-solid-svg-icons';
 })
 export class AppComponent {
   title = 'bootcamp-css-stuff';
-  faBars=faBars;
+  faBars = faBars;
+  faTree = faTree;
+  faPhone = faPhone;
+  faSuitcase = faSuitcase;
+  faInfoCircle = faInfoCircle;
+  faCogs = faCogs;
+  faShoppingCart = faShoppingCart;
 
   public show:boolean = false;
   public buttonName:any = '';
