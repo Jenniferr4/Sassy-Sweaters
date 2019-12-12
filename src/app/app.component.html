@@ -1,28 +1,26 @@
 <header>
   <img id="tree" src="http://iconbug.com/data/48/512/7fed9b599abe281b110416691e400220.png"
       alt="" />
-  <h3 id="mainH3" class="header">Sassy Ugly Sweaters© </h3>
-  <button id="menu" (click)="toggle()" class="fa fa-bars"></button>
+  <h3 id="mainH3" class="header">SoUgly Sweaters© </h3>
+  <button id="menu" (click)="toggle()"><fa-icon [icon]="faBars"></fa-icon>
+  </button>
   <ng-container *ngIf="show" >
       <div class="hamMenu">
-          <a class="fa fa-tree" href="">  About Us</a>
-          <a class="fa fa-phone" href="">  Contact Us</a>
-          <a class="fa fa-suitcase" href="">  Careers</a>
-          <a class="fa fa-info-circle" href="">  Help</a>
-          <a class="fa fa-cogs" href="">  Settings</a>
+          <a href=""><fa-icon [icon]="faTree"></fa-icon> About Us</a>
+          <a href=""><fa-icon [icon]="faPhone"></fa-icon>  Contact Us</a>
+          <a href=""><fa-icon [icon]="faSuitcase"></fa-icon>  Careers</a>
+          <a href=""><fa-icon [icon]="faInfoCircle"></fa-icon>  Help</a>
+          <a href=""><fa-icon [icon]="faCogs"></fa-icon>  Settings</a>
        </div>
   </ng-container>
-  <button (click)="cartToggle()" id="cartMenu" class="fa fa-shopping-cart"></button>
+  <button (click)="cartToggle()" id="cartMenu" ><fa-icon [icon]="faShoppingCart"></fa-icon></button>
   <ng-container *ngIf="cartShow" >
       <div class="">
-          <a class="fa fa-shopping-cart" href="">  About Us</a>
-          <a class="fa fa-phone" href="">  Contact Us</a>
-          <a class="fa fa-suitcase" href="">  Careers</a>
-          <a class="fa fa-info-circle" href="">  Help</a>
-          <a class="fa fa-cogs" href="">  Settings</a>
+          <a href=""><fa-icon [icon]="faShoppingCart"></fa-icon>  About Us</a>
+          <a href=""><fa-icon [icon]="faPhone"></fa-icon>  Contact Us</a>
+          
        </div>
   </ng-container>
-  <fa-icon [icon]="faBars"></fa-icon>
 </header>
 
 <div class="wrapper">

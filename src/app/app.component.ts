@@ -1,13 +1,7 @@
 import { Component } from '@angular/core';
-import {
-  faBars,
-  faTree,
-  faPhone,
-  faSuitcase,
-  faInfoCircle,
-  faCogs,
-  faShoppingCart
-} from '@fortawesome/free-solid-svg-icons';
+import {faBars, faTree, faPhone, 
+      faSuitcase, faInfoCircle, faCogs, 
+      faShoppingCart} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
