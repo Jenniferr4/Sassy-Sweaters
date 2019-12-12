@@ -1,0 +1,81 @@
+<header>
+  <img id="tree" src="http://iconbug.com/data/48/512/7fed9b599abe281b110416691e400220.png"
+      alt="" />
+  <h3 id="mainH3" class="header">Sassy Ugly Sweaters© </h3>
+  <button id="menu" (click)="toggle()" class="fa fa-bars"></button>
+  <ng-container *ngIf="show" >
+      <div class="hamMenu">
+          <a class="fa fa-tree" href="">  About Us</a>
+          <a class="fa fa-phone" href="">  Contact Us</a>
+          <a class="fa fa-suitcase" href="">  Careers</a>
+          <a class="fa fa-info-circle" href="">  Help</a>
+          <a class="fa fa-cogs" href="">  Settings</a>
+       </div>
+  </ng-container>
+  <button (click)="cartToggle()" id="cartMenu" class="fa fa-shopping-cart"></button>
+  <ng-container *ngIf="cartShow" >
+      <div class="">
+          <a class="fa fa-shopping-cart" href="">  About Us</a>
+          <a class="fa fa-phone" href="">  Contact Us</a>
+          <a class="fa fa-suitcase" href="">  Careers</a>
+          <a class="fa fa-info-circle" href="">  Help</a>
+          <a class="fa fa-cogs" href="">  Settings</a>
+       </div>
+  </ng-container>
+</header>
+
+<div class="wrapper">
+    <div class="topbar">
+
+        <div id="searchIcon" class="fa fa-search"></div>
+        <input id="searchInput" type="text" placeholder="Search Products">
+        
+        <button id="filter" class="fa fa-filter"></button>
+    </div>
+    <hr>
+    
+    
+
+
+    <div class="row">
+      <div class="ethan-container">
+          <div class="ethan-card-4" style="width:70%">
+            <header class="ethan-container ethan-light-grey">
+              <h3>Soft Cozy Sweater</h3>
+            </header>
+            <div class="ethan-container">
+              <p>$79.99</p>
+              <hr>
+              <img src="https://lp2.hm.com/hmgoepprod?set=source[/cb/c5/cbc5b034e74c1475c03bf5b597d10bfb243b2696.jpg],origin[dam],category[ladies_knitwear_jumpers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]" alt="Sweater" class="ethan-left ethan-circle ethan-margin-right" style="width:60px">
+              <p>This sweater is so cozy you'll feel like you're back in your mother's womb and so ugly you'll know it will never cheat on you.</p><br>
+            </div>
+            <button class="ethan-button ethan-block ethan-dark-grey">+ Add To Cart</button>
+          </div>
+        </div>
+        
+        <div class="ethan-container">
+            <div class="ethan-card-4" style="width:70%">
+              <header class="ethan-container ethan-light-grey">
+                <h3>Softer Cozy Sweater</h3>
+              </header>
+              <div class="ethan-container">
+                <p>$124.99</p>
+                <hr>
+                <img src="https://lp2.hm.com/hmgoepprod?set=source[/cb/c5/cbc5b034e74c1475c03bf5b597d10bfb243b2696.jpg],origin[dam],category[ladies_knitwear_jumpers],type[DESCRIPTIVESTILLLIFE],res[m],hmver[1]&call=url[file:/product/main]" alt="Sweater" class="ethan-left ethan-circle ethan-margin-right" style="width:60px">
+                <p>A delicious morsal to go with you winter apparal. Watch out, though! Known to attract huge flocks of pidgens. (Which is fine, if that's your thing...)</p><br>
+              </div>
+              <button class="ethan-button ethan-block ethan-dark-grey">+ Add To Cart</button>
+            </div>
+          </div>
+  </div>
+  
+  
+
+
+
+
+
+
+
+</div>
+
