@@ -1,0 +1,194 @@
+
+@media screen {
+	button {
+		background-color: #2f3031;
+	}
+	button {
+		border-color: #575757;
+		color: #b4b3b1;
+	}
+	::placeholder {
+		color: #96938d;
+	}
+	::selection {
+		background-color: #205ba2;
+		color: #c2c2c2;
+	}
+}
+
+
+header.ethan-container.ethan-light-grey {
+	display: block;
+	margin: 0;
+	border-radius: 15px 15px 0 0;
+}
+
+img {
+	border-style: none;
+}
+
+button {
+	overflow: visible;
+	text-transform: none;
+	border-radius: 0 0 10px 10px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 24px;
+	padding: 0;
+}
+
+h2,
+h3 {
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-weight: 400;
+	margin: 10px 0;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #eee;
+	margin: 20px 0;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.ethan-button {
+	border: none;
+	display: inline-block;
+	padding: 8px 16px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	color: inherit;
+	background-color: inherit;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+.ethan-button {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.ethan-button:disabled {
+	cursor: not-allowed;
+	opacity: 0.3;
+}
+
+:disabled * {
+	pointer-events: none;
+}
+
+.ethan-block {
+	display: block;
+	width: 100%;
+}
+
+.ethan-container:after,
+.ethan-container:before {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.ethan-circle {
+	border-radius: 50%;
+}
+
+.ethan-container {
+	padding: 0.01em 16px;
+}
+
+.ethan-card-4 {
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 0 auto;
+	border-radius: 15px;
+}
+
+.ethan-margin-right {
+	margin-right: 16px!important;
+}
+
+.ethan-left {
+	float: left!important;
+}
+
+.ethan-button:hover {
+	color: #000!important;
+	background-color: #ccc!important;
+}
+
+.ethan-light-grey {
+	color: #000!important;
+	background-color: #f1f1f1!important;
+}
+
+.ethan-dark-grey {
+	color: #fff!important;
+	background-color: #616161!important;
+}
+
+
+/*! CSS Used from: Embedded ; media=screen */
+
+@media screen {
+	hr {
+		border-right-color: initial;
+		border-bottom-color: initial;
+		border-left-color: initial;
+		border-top-color: rgb(66, 66, 66);
+	}
+	.ethan-button {
+		border-color: initial;
+		text-decoration-color: initial;
+		color: inherit;
+		background-color: inherit;
+	}
+	.ethan-card-4 {
+		box-shadow: rgba(32, 32, 32, 0.2) 0px 4px 10px 0px, rgba(32, 32, 32, 0.19) 0px 4px 20px 0px;
+	}
+	.ethan-button:hover {
+		color: rgb(180, 179, 177)!important;
+		background-color: rgb(57, 58, 59)!important;
+	}
+	.ethan-light-grey {
+		color: rgb(180, 179, 177)!important;
+		background-color: rgb(50, 51, 52)!important;
+	}
+	.ethan-dark-grey {
+		color: rgb(194, 194, 194)!important;
+		background-color: rgb(71, 73, 75)!important;
+	}
+}
+
+img {
+	margin-bottom: 15px;
+}
+
+.ethan-container {
+	justify-content: center;
+	margin: 15px 0;
+}
+
+@media all and (min-width: 576px) {
+	.ethan-container{
+		max-width: 350px;
+		flex: 50%;
+	}
+
+	.row {
+		display: flex;
+	}
+}
